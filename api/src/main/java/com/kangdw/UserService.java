@@ -1,5 +1,7 @@
 package com.kangdw;
 
+import java.util.List;
+
 /**
  * @author kangdw [kangdw@yinhai.com]
  * @since 5.1
@@ -10,5 +12,5 @@ public interface UserService {
      *
      * @return
      */
-    public String getUserList();
+    public List getUserList();
 }
