@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db6e49c5-3854-44db-a857-f83f41fd9a2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/kangdw/provider/impl/UserServerImpl2.java" afterDir="false" />
+    <list default="true" id="db6e49c5-3854-44db-a857-f83f41fd9a2c" name="Default Changelist" comment="da">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/kangdw/consumer/controller/DubboController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/kangdw/consumer/controller/DubboController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -93,6 +91,7 @@
       <workItem from="1599484372806" duration="2668000" />
       <workItem from="1599553001619" duration="295000" />
       <workItem from="1599740297496" duration="602000" />
+      <workItem from="1599966290102" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="da">
       <created>1599534684841</created>
@@ -101,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599534684841</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="da">
+      <created>1599966472784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599966472784</updated>
+    </task>
+    <task id="LOCAL-00003" summary="da">
+      <created>1599966716057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599966716057</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +198,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599569800442" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599966730155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599966730155" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599569769682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
