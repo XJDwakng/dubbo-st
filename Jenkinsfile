@@ -1,3 +1,3 @@
 stage('打包') {
-    mvn clean package
+   sh 'mvn clean package'
 }
