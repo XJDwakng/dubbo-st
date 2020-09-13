@@ -1,3 +1,9 @@
-stage('打包') {
-   sh 'mvn clean package'
+node {
+    stage('Checkout') {
+        checkout scm
+    }
+
+    stage('Clean Verify') {
+        sh 'mvn clean package'
+    }
 }
