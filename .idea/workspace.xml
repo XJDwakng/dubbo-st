@@ -20,29 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6e49c5-3854-44db-a857-f83f41fd9a2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/kangdw/provider/impl/UserServerImpl2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/kangdw/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/kangdw/consumer/controller/DubboController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/kangdw/consumer/controller/DubboController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/kangdw/consumer/ConsumerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/kangdw/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/kangdw/provider/ProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/kangdw/provider/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/kangdw/provider/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/kangdw/provider/ProviderApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/kangdw/provider/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,19 +63,7 @@
       <recent name="E:\bootInitSpace\dubbo" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kangdw.consumer.ConsumerApplication" />
@@ -122,6 +92,7 @@
       <workItem from="1599202194814" duration="1333000" />
       <workItem from="1599484372806" duration="2668000" />
       <workItem from="1599553001619" duration="295000" />
+      <workItem from="1599740297496" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="da">
       <created>1599534684841</created>
@@ -134,20 +105,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="true" />
@@ -155,29 +125,69 @@
     <option name="LAST_COMMIT_MESSAGE" value="da" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1599484560533">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1599571005023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599484560533" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599571005023" />
     <state x="740" y="218" key="FileChooserDialogImpl" timestamp="1599485700229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599485700229" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599487304330">
+    <state width="1877" height="358" key="GridCell.Tab.0.bottom" timestamp="1599573215923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599487304330" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599487304330">
+    <state width="1877" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215923" />
+    <state width="1877" height="358" key="GridCell.Tab.0.center" timestamp="1599573215923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599487304330" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599487304330">
+    <state width="1877" height="358" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215923" />
+    <state width="1877" height="358" key="GridCell.Tab.0.left" timestamp="1599573215923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599487304330" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599487304330">
+    <state width="1877" height="358" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215923" />
+    <state width="1877" height="358" key="GridCell.Tab.0.right" timestamp="1599573215923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599487304330" />
+    <state width="1877" height="358" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215923" />
+    <state width="1877" height="358" key="GridCell.Tab.1.bottom" timestamp="1599573215704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="358" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215704" />
+    <state width="1877" height="358" key="GridCell.Tab.1.center" timestamp="1599573215704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="358" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215704" />
+    <state width="1877" height="358" key="GridCell.Tab.1.left" timestamp="1599573215704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="358" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215704" />
+    <state width="1877" height="358" key="GridCell.Tab.1.right" timestamp="1599573215704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="358" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215704" />
+    <state width="1877" height="358" key="GridCell.Tab.2.bottom" timestamp="1599573215704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="358" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215704" />
+    <state width="1877" height="358" key="GridCell.Tab.2.center" timestamp="1599573215704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="358" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215704" />
+    <state width="1877" height="358" key="GridCell.Tab.2.left" timestamp="1599573215704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="358" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215704" />
+    <state width="1877" height="358" key="GridCell.Tab.2.right" timestamp="1599573215704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="358" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599573215704" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1599569800442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599569800442" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599569769682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599569769682" />
   </component>
 </project>
