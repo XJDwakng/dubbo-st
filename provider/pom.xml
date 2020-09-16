@@ -26,13 +26,18 @@
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
-            <version>2.7.1</version>
+            <version>2.7.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-metadata-report-zookeeper</artifactId>
+            <version>2.7.7</version>
         </dependency>
         <!--zookeeper 注册中心客户端引入 使用的是curator客户端 -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
-            <version>2.7.1</version>
+            <version>2.7.7</version>
         </dependency>
         <dependency>
             <groupId>org.apache.dubbo</groupId>
