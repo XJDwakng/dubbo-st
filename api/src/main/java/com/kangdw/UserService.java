@@ -12,5 +12,14 @@ public interface UserService {
      *
      * @return
      */
-    public List getUserList();
+     List getUserList();
+
+    /**
+     * 查询用户根据条件
+     *
+     * @param userId
+     * @param userName
+     * @return
+     */
+     String queryUserById(String userId, String userName);
 }
